@@ -72,6 +72,7 @@ public class ImplicitAndExplicitWait {
 		//Switching to main window.
 		driver.switchTo().window(mainWindow);
 		driver.close();
+		System.out.println("Commit and Push to GITHUB");
 	}
 
 }
